@@ -66,7 +66,7 @@ export const featuredProject: FeaturedProject = {
       description: "Ingests structured logs across all microservice containers for rapid tracing and distributed debugging."
     }
   ],
-  githubUrl: "https://github.com/your-username/triptrekker", // Placeholder: replace with repository URL
+  githubUrl: "https://github.com/MagdyAdel1/triptrekker", // Placeholder: replace with repository URL
   demoUrl: null // No live demo currently hosted; local Docker Compose setup provided
 };
 
@@ -88,7 +88,7 @@ export const otherProjects: Project[] = [
       "GitHub Actions",
       "ELK Stack"
     ],
-    githubUrl: "https://github.com/your-username/budget-blitz", // Placeholder
+    githubUrl: "https://github.com/MagdyAdel1/budget-blitz", // Placeholder
     demoUrl: null
   },
   {
@@ -106,7 +106,7 @@ export const otherProjects: Project[] = [
       "GitHub Actions",
       "ELK Stack"
     ],
-    githubUrl: "https://github.com/your-username/school-management-system", // Placeholder
+    githubUrl: "https://github.com/MagdyAdel1/school-management-system", // Placeholder
     demoUrl: null
   },
   {
@@ -121,7 +121,7 @@ export const otherProjects: Project[] = [
       "OpenCV",
       "NumPy"
     ],
-    githubUrl: "https://github.com/your-username/3d-human-body-reconstruction", // Placeholder
+    githubUrl: "https://github.com/MagdyAdel1/3d-human-body-reconstruction", // Placeholder
     demoUrl: null
   },
   {
@@ -138,7 +138,7 @@ export const otherProjects: Project[] = [
       "Collections",
       "Generics"
     ],
-    githubUrl: "https://github.com/your-username/mo-chess", // Placeholder
+    githubUrl: "https://github.com/MagdyAdel1/mo-chess", // Placeholder
     demoUrl: null
   },
   {
@@ -156,7 +156,7 @@ export const otherProjects: Project[] = [
     technologies: [
       "C++"
     ],
-    githubUrl: "https://github.com/your-username/maze-runner", // Placeholder
+    githubUrl: "https://github.com/MagdyAdel1/maze-runner", // Placeholder
     demoUrl: null
   },
   {
@@ -167,7 +167,7 @@ export const otherProjects: Project[] = [
     technologies: [
       "C#"
     ],
-    githubUrl: "https://github.com/your-username/security-package", // Placeholder
+    githubUrl: "https://github.com/MagdyAdel1/security-package", // Placeholder
     demoUrl: null
   }
 ];

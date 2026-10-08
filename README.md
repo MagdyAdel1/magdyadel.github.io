@@ -152,19 +152,29 @@ npm run preview
 
 ## 🌐 Deployment Instructions
 
-### Deploy to GitHub Pages
-1. In `vite.config.ts`, add the `base` property matching your repository name:
-   ```ts
-   export default defineConfig({
-     base: '/repository-name/', // e.g., '/magdy-adel-portfolio/'
-     plugins: [react()],
-   });
-   ```
-2. Build the project:
+### Deploy to GitHub Pages (Live at `https://magdyadel1.github.io/magdyadel.github.io/`)
+
+Your repository is already pre-configured with `base: './'` in `vite.config.ts`, making it universally compatible with subpaths, custom domains, and GitHub Pages.
+
+#### Method 1: Automated GitHub Actions (Recommended)
+This repository includes a pre-configured workflow at `.github/workflows/deploy.yml`.
+1. Go to your repository on GitHub: `https://github.com/MagdyAdel1/magdyadel.github.io`.
+2. Navigate to **Settings** &rarr; **Pages**.
+3. Under **Build and deployment** &rarr; **Source**, select **GitHub Actions**.
+4. Push your changes to the `main` branch:
    ```bash
-   npm run build
+   git push origin main
    ```
-3. Push the `dist` directory or configure a GitHub Actions workflow to publish the `dist` folder to the `gh-pages` branch.
+5. GitHub will automatically trigger the workflow, build the production bundle, and publish it live!
+
+#### Method 2: One-Command Branch Deployment (`gh-pages`)
+If you prefer deploying via the `gh-pages` branch:
+1. In your GitHub repository **Settings** &rarr; **Pages**, set **Source** to **Deploy from a branch**, choose branch `gh-pages` and folder `/ (root)`.
+2. Run in your terminal:
+   ```bash
+   npm run deploy
+   ```
+   This automatically builds the project and pushes the `dist` folder to your `gh-pages` branch.
 
 ### Deploy to Vercel
 1. Install the Vercel CLI: `npm i -g vercel`
